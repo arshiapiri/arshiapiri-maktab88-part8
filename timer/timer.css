@@ -1,0 +1,36 @@
+.timerBox{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(107, 102, 102);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.custom{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.start{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(78, 97, 97);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.reset{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(99, 24, 160);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
