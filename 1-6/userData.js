@@ -1,4 +1,4 @@
-const userData = [
+var userData = [
 	{
 		uid: 112233,
 		firstname: 'amirhossein',

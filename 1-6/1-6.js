@@ -1,7 +1,7 @@
 function makeUserDataTable(personData) {
     const tableElem = document.querySelector("table");
-    
-    personData.forEach(function(person, index) {
+
+    personData.forEach(function (person, index) {
         const row = document.createElement("tr");
 
         const rowCell = document.createElement("td");
@@ -15,7 +15,7 @@ function makeUserDataTable(personData) {
             const newCell = document.createElement("td");
 
             const cellText = document.createTextNode(`${person[props]}`);
-            
+
             newCell.appendChild(cellText);
             row.appendChild(newCell);
         }
@@ -23,10 +23,4 @@ function makeUserDataTable(personData) {
     })
 }
 makeUserDataTable(userData);
-
-///
-
-th.addEventListener('click' , function(e){
-    console.log(e.target);
-})
 

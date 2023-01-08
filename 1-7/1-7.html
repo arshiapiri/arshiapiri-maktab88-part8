@@ -10,51 +10,68 @@
 
 <body>
 
-	<hr>
-			<div class="employee-form">
-                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
-                    <div>
-                        <label>row</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
-                        <input type="text" name="fullName" id="fullName">
-                    </div>
-                    <div>
-                        <label>UID</label>
-                        <input type="text" name="email" id="email">
-                    </div>
-                    <div>
-                        <label>frist name</label>
-                        <input type="text" name="salary" id="salary">
-                    </div>
-                    <div>
-                        <label>last name</label>
-                        <input type="text" name="city" id="city">
-                    </div>
-                    <div  class="form-action-buttons">
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-		</div>
-		<br/>
-		<div class = "employees-table">
-                <table class="list" id="employeeList">
-                    <thead>
-                        <tr>
-                            <th>row</th>
-                            <th>UID</th>
-                            <th>frist name</th>
-                            <th>last name</th>
-                            <th>city</th>
-                            <th>postal code</th>
-                            <th>phone number</th>
-                            <th>position</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+    <h1>
+        <center>JavaScript CRUD Example Tutorial</center>
+    </h1>
+    <hr>
+    <div class="employee-form">
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <div>
+                <label>UID</label>
+                <input type="text" name="UID" id="UID">
+            </div>
+            <div>
+                <label>frist name</label><label class="validation-error hide" id="fullNameValidationError">This field
+                    is required.</label>
+                <input type="text" name="frist name" id="fristName">
+            </div>
+            <div>
+                <label>last name</label>
+                <input type="text" name="last name" id="lastName">
+            </div>
+            <div>
+                <label>City</label>
+                <input type="text" name="city" id="city">
+            </div>
+            <div>
+                <label>postal code</label>
+                <input type="text" name="postal code" id="postal">
+            </div>
+            <div>
+                <label>phone Number</label>
+                <input type="text" name="phone number" id="phoneNumber">
+            </div>
+            <div>
+                <label>Position</label>
+                <input type="text" name="Position" id="Position">
+            </div>
+            <div class="form-action-buttons">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <br />
+    <div class="employees-table">
+        <table class="list" id="employeeList">
+            <thead>
+                <tr>
+                    <th>UID</th>
+                    <th>frist name</th>
+                    <th>last name</th>
+                    <th>City</th>
+                    <th>postal code</th>
+                    <th>Phone Number</th>
+                    <th>Position</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
 
-                    </tbody>
-                </table>
-        </div>
+            </tbody>
+        </table>
+    </div>
+    <script src="/arshiapiri-maktab88-part8/1-7/userData7.js"></script>
     <script src="1-7.js"></script>
 </body>
+
 </html>
